@@ -34,6 +34,3 @@ for n = 1:10
 end
 
 ```
-Vector Addition: ![Alt](https://github.com/shravankumar147/SMAI/blob/master/docs/html/vector_1.png "Title")
-
-![image](SMAI/blob/master/docs/html/vector_1.png)

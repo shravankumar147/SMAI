@@ -2,7 +2,8 @@
 
 1. Linear Algebra
   - vectors
-  Here is a simple program to understand vector addition visually. 
+  
+Here is a simple program to understand vector addition visually. 
 
 ``` matlab
 clear; close all; clc;
@@ -53,3 +54,5 @@ randi is an inbuilt MATLAB function, which produces random integers in specified
     M = [v1 v2 v3];
 ```
 We are performing vector addition on `v1` and `v2` and storing the resulting vector into `v3`, then concatinating all the vectors into a matrix `M`.
+
+Logo: ![Alt](/docs/html/vector_1_01.png"Title")

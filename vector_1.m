@@ -6,9 +6,9 @@ for n = 1:10
     v3 = v1+v2;
     M = [v1 v2 v3];
     
-    s1 = ['(' num2str(v1(1)) ',' num2str(v1(1)) ')'];
-    s2 = ['(' num2str(v2(1)) ',' num2str(v2(1)) ')'];
-    s3 = ['(' num2str(v3(1)) ',' num2str(v3(1)) ')'];
+    s1 = ['(' num2str(v1(1)) ',' num2str(v1(2)) ')'];
+    s2 = ['(' num2str(v2(1)) ',' num2str(v2(2)) ')'];
+    s3 = ['(' num2str(v3(1)) ',' num2str(v3(2)) ')'];
     
     disp(M)
     sprintf('(%d, %d) + (%d, %d) = (%d, %d)', M(1,1),M(2,1),M(1,2),M(2,2),M(1,3),M(2,3))  

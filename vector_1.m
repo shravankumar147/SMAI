@@ -25,5 +25,7 @@ for n = 1:10
     grid('on')
     legend('v1','v2','v3')
     waitforbuttonpress()
+    fname = ['Vector' num2str(n) '.png'];
+    saveas(gcf,fname)
 end
 

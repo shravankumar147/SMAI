@@ -42,13 +42,13 @@ clear; close all; clc;
 This line of code will clear the workspace variables, closes if any figures open and clear the command propt. 
 n is looping for 10 times, with that we will see 10 different vector additions in the current figure window. 
 
-```
+``` matlab
     v1 = [randi(10); randi(10)];
     v2 = [randi([-10 10]); randi([-10 10])];
 ```
 randi is an inbuilt MATLAB function, which produces random integers in specified range. [randi](https://in.mathworks.com/help/matlab/ref/randi.html "Title").
 
-```matlab
+``` matlab
     v3 = v1+v2;
     M = [v1 v2 v3];
 ```

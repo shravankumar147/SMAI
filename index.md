@@ -55,6 +55,7 @@ randi is an inbuilt MATLAB function, which produces random integers in specified
 ```
 We are performing vector addition on `v1` and `v2` and storing the resulting vector into `v3`, then concatinating all the vectors into a matrix `M`.
 
+The following shown images are first 5 outputs of our code, they may vary in your case because we are using random function to generate the two vectors `v1` & `v2`.
 
 figure 1:![Alt](images/Vector1.png?raw=true)
 figure 2:![Alt](images/Vector2.png?raw=true)

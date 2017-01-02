@@ -39,7 +39,7 @@ end
 ``` matlab
 clear; close all; clc;
 ```
-This line of code will clear the workspace variables, closes if any figures open and clear the command propt. 
+This line of code will clear the workspace variables, closes if any figures open and clear the command prompt. 
 n is looping for 10 times, with that we will see 10 different vector additions in the current figure window. 
 
 ``` matlab

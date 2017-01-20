@@ -15,7 +15,7 @@ for n = 1:10
     plotv(M,'*-')
     
     text(v1(1),v1(2),s1);
-    text(v2(1),v2(2),s2);
+    text(v2(1),v2(2),s2); 
     text(v3(1),v3(2),s3);
     
     text(v1(1)/2,v1(2)/2, 'v1');
@@ -26,6 +26,6 @@ for n = 1:10
     legend('v1','v2','v3')
     waitforbuttonpress()
     fname = ['Vector' num2str(n) '.png'];
-    saveas(gcf,fname)
+%     saveas(gcf,fname)
 end
 
